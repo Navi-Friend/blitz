@@ -75,6 +75,10 @@ header{
 }
 
 @media (max-width: 767px){
+	
+	body{
+		border:none !important;
+	}
 
 	main.active, footer.active{
 		display: none;
@@ -244,7 +248,7 @@ header{
 .slider-item::after{
 	content:'';
 	position:absolute;
-	left:50%;
+	left: calc(50% - 15px);
 	bottom:-1px;
 	border: 13px solid transparent; 
 	border-bottom: 13px solid #fff;
